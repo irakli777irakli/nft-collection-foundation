@@ -258,7 +258,7 @@ export default function Home() {
         <span className={styles.description}>
           Presale has started for whitelisted addresses.
         </span>
-        <button onCLick={presaleMint} className={styles.button}>
+        <button onClick={presaleMint} className={styles.button}>
           mint now
         </button>
       </div>
@@ -269,7 +269,7 @@ export default function Home() {
         <span className={styles.description}>
           Presale has ened. Public mint has started.
         </span>
-        <button onCLick={publicMint} className={styles.button}>
+        <button onClick={publicMint} className={styles.button}>
           mint now
         </button>
       </div>
