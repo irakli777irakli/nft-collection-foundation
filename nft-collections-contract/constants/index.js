@@ -1,0 +1,10 @@
+export const WHITELIST_CONTRACT_ADDRESS = "0x0CE21B75221aAeB15966a208a5846e7a1FfE52a2";
+export const METADATA_URL = ""
+
+
+
+
+
+
+
+// rinkeby "0x12b82Fd15354eC7fF1073276de3cd52b971B498b" 
