@@ -239,7 +239,7 @@ export default function Home() {
     }
     if(isOwner && !presaleStarted){
       // render a button to start presale
-      return <button onCLick={startPresale} className={styles.button} >
+      return <button onClick={startPresale} className={styles.button} >
         start presale
         </button>
 
